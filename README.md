@@ -2,6 +2,8 @@
 
 Personal configs for fish, ghostty, neovim (LazyVim), tmux, zellij, and wezterm.
 
+![dotfiles setup](https://yzub7xjzmf.ufs.sh/f/p5WCAJ95HVcjAy8iWnWsdSQczq3jb2DZsRCMfuF9PigHYram)
+
 ## Install (new machine)
 
 ```bash
