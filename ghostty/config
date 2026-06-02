@@ -1,0 +1,46 @@
+# Ghostty — tuned for transparent Neovim + oxocarbon
+#theme = "Oxocarbon"
+theme = "Rose Pine Moon"
+
+# ghostty +list-fonts
+# used to all just be Maple Mono
+# font-family = DankMono Nerd Font
+# font-family = JetBrainsMono NFM
+# font-family = Maple Mono
+# font-family = DankMono Nerd Font
+# font-family = Input
+# font-family = FiraCode Nerd Font Mono
+font-family = IoskeleyMono Nerd Font
+
+font-size = 11
+window-title-font-family = DankMono Nerd Font
+adjust-cell-height = 2
+
+macos-option-as-alt = true
+macos-titlebar-style = transparent
+
+# Oxocarbon-adjacent base (syntax colors come from Neovim)
+background = 161616
+foreground = f2f4f8
+cursor-color = f2f4f8
+cursor-text = 161616
+selection-background = 393939
+selection-foreground = f2f4f8
+
+# Transparency: applies to Neovim when bg is cleared in colorscheme
+background-opacity = 0.88
+background-opacity-cells = true
+background-blur = 20
+
+window-padding-x = 10
+window-padding-y = 8
+unfocused-split-opacity = 0.92
+
+cursor-style = block
+scrollback-limit = 100000000
+
+keybind = global:cmd+`=toggle_quick_terminal
+keybind = shift+ctrl+left_bracket=previous_tab
+keybind = shift+ctrl+right_bracket=next_tab
+keybind = shift+ctrl+,=move_tab:-1
+keybind = shift+ctrl+.=move_tab:+1
