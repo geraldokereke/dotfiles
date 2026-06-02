@@ -23,3 +23,4 @@ rsync -a --exclude '.git' ~/.config/nvim/ ~/dotfiles/nvim/
 rsync -a ~/.config/fish/ ~/dotfiles/fish/
 # ... repeat for other dirs, then git add -A && git commit && git push
 ```
+# dotfiles
